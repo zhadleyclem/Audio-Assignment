@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GroupAudio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Assignment here: GroupAudio Demo Page</h1>
+  <p> This is a free audio sample taken from kaggle</p>
+
+  <audio id="audioPlayer" controls>
+    <source src="sample-6s.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="controls">
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+    <label>
+      Volume:
+      <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1">
+    </label>
+  </div>
+
+  <div id="info">
+    <p id="playedLabel">Played: No</p>
+    <p id="pausedLabel">Paused: Yes</p>
+    <p id="volumeLabel">Volume: 1.0</p>
+    <p id="durationLabel">Duration: 0.00</p>
+    <p id="currentTimeLabel">Current Time: 0.00</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
