@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #e7b3b3;
+}
+
+h1 {
+  text-align: center;
+}
+
+#audioPlayer {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  background-color: rgb(168, 145, 115);
+  box-shadow: #e7b3b3;
+}
+
+#info p {
+    display: flex;
+  background: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+}
+
